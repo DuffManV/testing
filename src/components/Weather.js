@@ -1,6 +1,5 @@
 
 function Weather({data}) {
-        console.log(data)
         return (
             <div hidden={data.length === 0}>
                 <div>{data.name}</div>

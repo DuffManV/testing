@@ -26,9 +26,6 @@ function CitySearch() {
             } else {
                 localStorage.setItem('cities', coords)
             }
-            console.log(data?.name);
-            console.log(data?.coord?.lat);
-            console.log(data?.coord?.lon);
         }
     }
     useEffect(() => {
