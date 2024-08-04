@@ -39,8 +39,6 @@ function CitySearch() {
         await getWeather(lat, long, setData);
     }
     const handleClick = async () => {
-        console.log(value.data.geo_lat);
-        console.log(value.data.geo_lon);
         await getWeather(value.data.geo_lat, value.data.geo_lon, setData)
     };
 
