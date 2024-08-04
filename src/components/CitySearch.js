@@ -55,9 +55,7 @@ function CitySearch() {
             <Button button={getLocation}></Button>
             <button onClick={saveCity}>{saveCityButtonName}</button>
             <Weather data={data}></Weather>
-            {value ?
-                <YandexMap props={value}></YandexMap>
-                : <></>}
+                <YandexMap props={data}></YandexMap>
             {savedCities.map = (item, key) => {
                 return (
                     <select>

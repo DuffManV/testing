@@ -8,7 +8,7 @@ function Weather({data}) {
                 <div>Минимальная температура {data?.main?.temp_max} градусов по Цельсию</div>
                 <div>Ощущение как {data?.main?.feels_like} градусов по Цельсию</div>
                 <div>{data?.main?.humidity} % влажность</div>
-                <div>{data?.weather?.icon}/></div>
+                <div>{data?.weather?.icon}</div>
             </div>
         )
 
